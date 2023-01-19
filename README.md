@@ -1,15 +1,25 @@
-![blockchain](Images/blockchain.png)
+![solidity1](Images/solidity1.png)
 # **Columbia University Engineering, New York FinTech Bootcamp** 
 # **August 2022 Cohort**
-# **Module 20, Challenge - building a 'Fintech Finder' application to identify fintech professionals from a candidate list, hire them, and pay them**
+# **Module 20, Challenge - building smart contracts to automate FinTech institutional financial processes and features.**
 
 
-Objective - to simulate fintech engineer working at a a major global bank. 
+Objective - to automate the creation of joint savings accounts. 
 
-Scenario - Fintech Finder’s lead developer, tasked with integrating the Ethereum blockchain network into an application to enable customers to pay fintech professionals whom they hire with cryptocurrency. 
+Scenario - Fintech startup new hire, tasked with automating creation of joint savings accounts; will accept two addresses, which will possess account control.
+
+Product - Solidity smart contract that accepts two user addresses. 
+> Addresses will be able to control a joint savings account. 
+> Use ether management functions to implement institutional requirements for provision of features. 
+> Features will consist of the ability to deposit and withdraw funds from the account.
+
+ 
 ![blockchain_pay](Images/blockchain_pay.png)
 
 ### Product 
+
+
+
 
 Ganache account tab (index 0)
 ![ganache](Images/ganache_index.png)
@@ -81,8 +91,14 @@ Using your web browser, to [REMIX_IDE](https://remix-project.org/) and initializ
 initiate the Solidity Compiler
 ```
 
+In the Remix IDE, navigate to the “Deploy & Run Transactions” pane, and then make sure that “JavaScript VM” is selected as the environment
 ```python
-Deploy and Run Transactions 
+Deploy & Run Transactions 
+```
+
+In the Remix IDE, Click the Deploy button to deploy the smart contract
+```python
+Deploy 
 ```
 ___
 
