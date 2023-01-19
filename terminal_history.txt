@@ -1,0 +1,70 @@
+ 8829  git clone git@github.com:Billie-LS/Eth_host_and_Save.git
+ 8830  git status
+ 8831  git add .
+ 8832  git commit -m 'initial repository'
+ 8833  git push
+ 8834  code .
+ 8835  git status
+ 8836  git add README.md
+ 8837  git commit README.md -m 'README.md template initialize'
+ 8838  git add .gitignore
+ 8839  git commit .gitignore -m 'gitignore'
+ 8840  git add joint_savings.sol 
+ 8841  git commit joint_savings.sol -m 'initial code commit'
+ 8842  git status
+ 8843  git add .
+ 8844  git commit -m 'initial package and code reserve'
+ 8845  git push
+ 8846  code .
+ 8847  git status
+ 8848  git add  joint_savings.sol
+ 8849  git commit  joint_savings.sol -m 'code script edited, commented and noted'
+ 8850  git status
+ 8851  git add joint_savings2.sol
+ 8852  git commit joint_savings2.sol -m 'alternate code utilize mapping'
+ 8853  git push
+ 8854  jupyter lab
+ 8855  git status
+ 8856  git add README.md 
+ 8857  git commit README.md -m 'update README.md refer Type hints'
+ 8858  git push
+ 8859  code .
+ 8860  git status
+ 8861  git add README.md
+ 8862  git commit README.md -m 'README.md progress'
+ 8863  git add joint_savings.sol 
+ 8864  git commit joint_savings.sol -m 'code update and notation'
+ 8865  git add joint_savings2.sol
+ 8866  git commit joint_savings2.sol -m 'alternate mapping code update and notation'
+ 8867  git push
+ 8868  git status
+ 8869  cd Desktop
+ 8870  code .
+ 8871  conda activate machine_slearn
+ 8872  code .
+ 8873  streamlit run /Users/lokiskylizard/Desktop/git_portfolio/find_yo_tech_pro_fin/abc1.py
+ 8874  git status
+ 8875  git add .
+ 8876  git commit -m 'code script refined and updated primary vs beta files'
+ 8877  git push
+ 8878  jupyter lab
+ 8879  git status
+ 8880  git add README.md
+ 8881  git commit README.md -m 'update README.md'
+ 8882  git status
+ 8883  git add .
+ 8884  git commit -m 'images directory for rich content'
+ 8885  git status
+ 8886  git push
+ 8887  conda activate machine_slearn
+ 8888  code .
+ 8889  jupyter lab
+ 8890  git status
+ 8891  git add README.md
+ 8892  git commit README.md -m 'finalize README.md'
+ 8893  git add Execution_Results/
+ 8894  git commit Execution_Results/ -m 'deployed results'
+ 8895  git add .
+ 8896  git commit -m 'images rich content'
+ 8897  git push
+ 8898  jupyter lab
