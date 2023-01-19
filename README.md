@@ -1,7 +1,7 @@
 ![blockchain](Images/blockchain.png)
 # **Columbia University Engineering, New York FinTech Bootcamp** 
 # **August 2022 Cohort**
-# **Module 19, Challenge - building a 'Fintech Finder' application to identify fintech professionals from a candidate list, hire them, and pay them**
+# **Module 20, Challenge - building a 'Fintech Finder' application to identify fintech professionals from a candidate list, hire them, and pay them**
 
 
 Objective - to simulate fintech engineer working at a a major global bank. 
@@ -31,19 +31,9 @@ ___
 
 ### **Dependencies**
 
-This project leverages Python version 3.9.13 packaged by conda-forge | (main, May 27 2022, 17:01:00) with the following packages:
+This challenge leverages Solidity version 0.5.0 with the following IDE (Integrated Development Environment):
 
-
-* [sys](https://docs.python.org/3/library/sys.html) - module provides access to some variables used or maintained by the interpreter and to functions that interact strongly with the interpreter.
-
-* [os](https://docs.python.org/3/library/os.html) - module provides a portable way of using operating system dependent functionality.
-
-* [platform](https://www.geeksforgeeks.org/platform-module-in-python/) - used to retrieve as much possible information about the platform on which the program is being currently executed.
-
-* [watermark](https://pypi.org/project/watermark/) - An IPython magic extension for printing date and time stamps, version numbers, and hardware information.
-
-* [streamlit](https://pypi.org/project/streamlit/) - an all python, free, open source module that enables rapid transformation of data scripts into shareable web apps.
-
+* [REMIX_IDE](https://remix-project.org/) - a no-setup tool with a GUI for developing smart contracts.
 
 ___
 
@@ -79,17 +69,20 @@ git version 2.37.2
 In the terminal, navigate to directory where you want to install this application from the repository and enter the following command
 
 ```python
-git clone git@github.com:Billie-LS/find_yo_tech_pro_fin.git
+git clone git@github.com:Billie-LS/Eth_host_and_Save.git
 ```
 
 ---
 ## **Usage**
 
-In the terminal, navigate to the project folder where you've installed the application; run the streamlit application by using `streamlit run fintech_finder.py`:
+Using your web browser, to [REMIX_IDE](https://remix-project.org/) and initialize Remix Online IDE.  Then load the application from the project folder where you've installed the application:
 
 ```python
-> streamlit run fintech_finder.py 
+initiate the Solidity Compiler
+```
 
+```python
+Deploy and Run Transactions 
 ```
 ___
 
@@ -98,10 +91,10 @@ ___
 Version control can be reviewed at:
 
 ```python
-https://github.com/Billie-LS/find_yo_tech_pro_fin
+https://github.com/Billie-LS/Eth_host_and_Save
 ```
 
-[repository](https://github.com/Billie-LS/find_yo_tech_pro_fin)
+[repository](https://github.com/Billie-LS/Eth_host_and_Save)
 
 
 ___
