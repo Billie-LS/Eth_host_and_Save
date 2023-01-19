@@ -11,18 +11,18 @@ a solidity smart contract that
 
 pragma solidity ^0.5.0;
 
-// Define a new contract named `JointSavings`
+// Define new contract named `JointSavings`
 contract JointSavings {
 
-    // Store the addresses of the account owners
+    // Store addresses of account owners
     address payable accountOne;
     address payable accountTwo;
 
-    // Keep track of the last account to withdraw, and the amount withdrawn
+    // Keep track of last account to withdraw 'lastToWithdraw', and last amount withdrawn 'lastWithdrawAmount'
     address public lastToWithdraw;
     uint public lastWithdrawAmount;
 
-    // Keep track of the contract's balance
+    // Keep track of contract's balance 'contractBalance'
     uint public contractBalance;
 
     // Map to store the allowed addresses
@@ -31,20 +31,20 @@ contract JointSavings {
     // Function to allow accountOne and accountTwo to withdraw
     function withdraw(uint amount, address payable recipient) public {
 
-        // Ensure that the recipient is one of the account holders
+        // Ensure that recipient is one of the account holders
         require(allowedAddresses[recipient], "You don't own this account!");
 
-        // Ensure that the contract has enough balance to complete the withdraw
+        // Ensure that contract has enough balance to complete the withdraw
         require(address(this).balance >= amount, "Insufficient funds!");
 
         // Update lastToWithdraw and lastWithdrawAmount
         lastToWithdraw = recipient;
         lastWithdrawAmount = amount;
 
-        // Transfer the amount to the recipient
+        // Transfer amount to the recipient
         recipient.transfer(amount);
 
-        // Update the contract balance
+        // Update contract balance
         contractBalance = address(this).balance;
     }
 
@@ -53,7 +53,7 @@ contract JointSavings {
         contractBalance = address(this).balance;
     }
 
-    // public function to set the account holders
+    // public function to set account holders
     function setAccounts(address payable account1, address payable account2) public {
         accountOne = account1;
         accountTwo = account2;
