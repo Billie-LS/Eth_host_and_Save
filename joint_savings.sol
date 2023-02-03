@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.5.0<0.9.0;
+
 /*
 Joint Savings Account
 ---------------------
@@ -9,7 +12,7 @@ a solidity smart contract that
 *   provide the features of the joint savings account.
 */
 
-pragma solidity ^0.5.0;
+// pragma solidity ^0.5.0;
 
 // Define new contract named `JointSavings`
 contract JointSavings {
